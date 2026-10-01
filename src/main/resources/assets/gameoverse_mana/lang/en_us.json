@@ -4,5 +4,6 @@
   "affix.gameoverse_mana:spell/attribute/replenishing": "Replenishing",
   "affix.gameoverse_mana:spell/attribute/replenishing.suffix": "of Replenishment",
   "affix.gameoverse_mana:armor/attribute/attuned": "Attuned",
-  "affix.gameoverse_mana:armor/attribute/attuned.suffix": "of Attunement"
+  "affix.gameoverse_mana:armor/attribute/attuned.suffix": "of Attunement",
+  "gem_class.spell_weapon": "Spell Weapons"
 }
