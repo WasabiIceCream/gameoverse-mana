@@ -105,7 +105,8 @@ public final class GameoverseMana implements ModInitializer {
         if (max == null) return;
         double highest = 0;
         for (SpellSchool school : SpellSchools.all()) {
-            if (school.isMagicArchetype()) {
+            // spell_power:generic is a percentage multiplier on every school (base 100), not a school's own power
+            if (school.isMagicArchetype() && school != SpellSchools.GENERIC) {
                 highest = Math.max(highest, SpellPower.getSpellPower(school, player).baseValue());
             }
         }

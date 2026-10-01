@@ -12,7 +12,7 @@ stuck on 1.21.1) rebuilt on Mana Attributes 4.0.0 (TheRedBrain, MIT, needs Resou
   Paladins spells, otherwise by spell tier 20/30/40/60/80. Channelled spells spread the cost over their pulses
   (Arcane Beam: 60 over 4 pulses).
 - **Pool:** Mana Attributes' server config (`config/manaattributes/server.toml`): `natural_max_mana = 100`,
-  `natural_mana_regeneration = 5` (per second; its tick threshold is 20). Max mana also gets +2 per point of the
+  `natural_mana_regeneration = 5` (per second; its tick threshold is 20). Max mana also gets +5 per point of the
   caster's highest magic school spell power (`maxManaPerSpellPower`), refreshed every second.
 - **Mana bar:** Dynamic Resource Bars 0.9.6 only reads mana from Combat Attributes (`ManaBarBehavior.COMBAT_ATTRIBUTES`);
   `ManaProviderManagerMixin` (client, `@Pseudo`) puts a Mana Attributes provider in that slot. Pack configs:

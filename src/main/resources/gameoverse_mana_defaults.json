@@ -1,5 +1,5 @@
 {
-  "_comment": "spellCosts: mana per cast by spell id (RPGMana 1.4.5's table). costByTier: cost for other rune spells by spell tier 0-4. Channelled spells spread their cost over the cast. maxManaPerSpellPower: max mana added per point of the highest magic school's spell power.",
+  "_comment": "spellCosts: mana per cast by spell id (RPGMana 1.4.5's table). costByTier: cost for other rune spells by spell tier 0-4. Channelled spells spread their cost over the cast. maxManaPerSpellPower: max mana added per point of the highest magic school's spell power (schools start at 1; a Novice Wand adds 3, an Arcane Staff 6; the generic Spell Power percentage doesn't count).",
   "spellCosts": {
     "wizards:arcane_beam": 60,
     "wizards:arcane_blast": 40,
@@ -33,5 +33,5 @@
     60,
     80
   ],
-  "maxManaPerSpellPower": 2.0
+  "maxManaPerSpellPower": 5.0
 }
