@@ -19,5 +19,12 @@ stuck on 1.21.1) rebuilt on Mana Attributes 4.0.0 (TheRedBrain, MIT, needs Resou
   `dynamic_resource_bars-client.json` `manaBarVisibility: SMART_FADE` (force-synced), Mana Attributes' own bar off
   (`config/manaattributes/client.toml` `mana_bar_display = "NONE"`, source of truth in `gameoverse-client-perf`).
 
+- **Growing mana** (the user's choices): +5 max mana per point of spell power (above); the Skill Forest (Max Mana and
+  Mana Regeneration nodes in Arcana, Elements and Devotion, max mana on the Fire/Frost/Arcane/Priest/Paladin class boost
+  skills; see `gameoverse-skill-forest`); Apotheosis: Sapphire and Tanzanite gems give max mana / mana regeneration on
+  spell weapons (`gameoverse-jewel-gems`), and this jar ships three affixes (`data/gameoverse_mana/apotheosis/affixes/`,
+  loaded only with Apotheosis): Wellspring (max mana) and Replenishing (mana regeneration) on spell weapons, Attuned
+  (max mana) on helmets and chestplates.
+
 Re-check the Spell Engine hooks (`Ammo.ammoForSpell`, `SpellCost.consume` signatures) and Dynamic Resource Bars'
 `ManaProviderManager` when either updates.

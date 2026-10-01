@@ -1,0 +1,52 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "apotheosis"
+      ]
+    }
+  ],
+  "type": "apotheosis:optional_attribute",
+  "attribute": "manaattributes:max_mana",
+  "categories": [
+    "apotheosis:helmet",
+    "apotheosis:chestplate"
+  ],
+  "definition": {
+    "affix_type": "stat",
+    "exclusive_set": [],
+    "weights": {
+      "quality": 0.1,
+      "weight": 10
+    }
+  },
+  "operation": "add_value",
+  "values": {
+    "apotheosis:common": {
+      "min": 5,
+      "max": 10,
+      "step": 5
+    },
+    "apotheosis:uncommon": {
+      "min": 5,
+      "max": 15,
+      "step": 5
+    },
+    "apotheosis:rare": {
+      "min": 10,
+      "max": 20,
+      "step": 5
+    },
+    "apotheosis:epic": {
+      "min": 15,
+      "max": 25,
+      "step": 5
+    },
+    "apotheosis:mythic": {
+      "min": 20,
+      "max": 30,
+      "step": 5
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "apotheosis"
+      ]
+    }
+  ],
+  "type": "apotheosis:optional_attribute",
+  "attribute": "manaattributes:max_mana",
+  "categories": [
+    "apotheosis:spell_weapon"
+  ],
+  "definition": {
+    "affix_type": "stat",
+    "exclusive_set": [],
+    "weights": {
+      "quality": 0.1,
+      "weight": 20
+    }
+  },
+  "operation": "add_value",
+  "values": {
+    "apotheosis:common": {
+      "min": 10,
+      "max": 20,
+      "step": 5
+    },
+    "apotheosis:uncommon": {
+      "min": 15,
+      "max": 25,
+      "step": 5
+    },
+    "apotheosis:rare": {
+      "min": 20,
+      "max": 35,
+      "step": 5
+    },
+    "apotheosis:epic": {
+      "min": 30,
+      "max": 45,
+      "step": 5
+    },
+    "apotheosis:mythic": {
+      "min": 40,
+      "max": 60,
+      "step": 5
+    }
+  }
+}
