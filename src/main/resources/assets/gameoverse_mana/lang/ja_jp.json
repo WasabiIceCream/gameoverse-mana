@@ -1,0 +1,9 @@
+{
+  "affix.gameoverse_mana:spell/attribute/wellspring": "湧き出る",
+  "affix.gameoverse_mana:spell/attribute/wellspring.suffix": "《湧泉》",
+  "affix.gameoverse_mana:spell/attribute/replenishing": "満ちゆく",
+  "affix.gameoverse_mana:spell/attribute/replenishing.suffix": "《充填》",
+  "affix.gameoverse_mana:armor/attribute/attuned": "調和した",
+  "affix.gameoverse_mana:armor/attribute/attuned.suffix": "《調律》",
+  "gem_class.spell_weapon": "魔法武器"
+}
